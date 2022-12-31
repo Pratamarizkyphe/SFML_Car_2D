@@ -1,6 +1,6 @@
 # only change this lines
-SFML_DIR=D:\sdk\SFML-gcc
-CLEAR_TERMINAL=
+SFML_DIR=/usr/include/SFML
+CLEAR_TERMINAL= clear
 
 # ---------------------------------------------------- #
 CC=g++
@@ -43,4 +43,4 @@ clear:
 
 run: 
 	@echo "Running executable..."
-	.\main.exe
+	./main
